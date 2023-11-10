@@ -1,0 +1,101 @@
+
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+   
+background-color: lightslategray;
+
+}
+#score{
+    font-size: 20px;
+    color: black;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.app{
+    background-color: #fff;
+    width: 90%;
+    max-width: 600px;
+    margin:100px auto 0;
+    padding: 30px;
+    border-radius: 10px;
+
+}
+.app h1 {
+    font-weight: 20px;
+    color: black;
+    border-bottom: 1px;
+    padding-bottom: 30px;
+    font-size:25px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;   
+}
+.quiz{
+    padding: 20px 0;
+}
+.quiz h2{
+    font-size: 18px;
+    color:black;
+    font-weight:600;
+
+}
+.btn{
+    background-color: whitesmoke;
+    color:navy;
+    font-weight:400;
+    width: 100%;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px ;
+    text-align: left;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+}
+.btn:hover{
+    background: black;
+    color:#fff;
+}
+#next{
+    background-color: rgb(168, 159, 159);
+    color:#fff;
+    font-weight: 400;
+    width: 150px;
+    padding: 5px;
+    margin:20px;
+    border: 4px;
+    cursor: pointer;
+}
+.score{
+    display: flex;
+    color:black;
+    font-weight: 100;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    font-size: smaller;
+
+
+}
+.correct{
+    background: green;
+
+}
+.incorrect{
+    background: red;
+
+}
+@media (max-width:600px){
+    .pantalladeInicio{
+        display:grid;
+        height: 600px;
+        width: 400px;
+        background-color: lightslategray;
+}
+}
+.time .score{
+    background-color: lightblue;
+    padding: 2%;
+    font-size: small;
+    font-weight: 300;
+
+}
